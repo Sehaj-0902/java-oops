@@ -23,10 +23,12 @@ abstract class Vehicle implements Insurable {
         return vehicleNumber;
     }
 
+    // Method to get insurance policy number
     public String getInsurancePolicyNumber() {
         return insurancePolicyNumber;
     }
 
+    // Method to get insurance rate
     public double getInsuranceRate() {
         return insuranceRate;
     }
@@ -82,6 +84,7 @@ class Car extends Vehicle {
 class Bike extends Vehicle {
     // Subclass constructor
     public Bike(String vehicleNumber, String type, double rentalRate, String insurancePolicyNumber, double insuranceRate) {
+        // Calling superclass constructor
         super(vehicleNumber, type, rentalRate, insurancePolicyNumber, insuranceRate);
     }
 
