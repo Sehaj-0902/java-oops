@@ -64,7 +64,6 @@ class VegItem extends FoodItem implements Discountable {
     // Method to apply discount
     @Override
     public double applyDiscount() {
-        // 20% discount
         return calculateTotalPrice() * 0.25;
     }
 
