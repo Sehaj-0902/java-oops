@@ -189,5 +189,5 @@ Output:
     Rate per Km: Rs 10.0
     Fare for Auto: Rs 100.0
     Auto's Current Location: Market
-    Bike location updated to: Home
+    Auto location updated to: Home
  */
