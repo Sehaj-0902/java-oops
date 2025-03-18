@@ -164,7 +164,7 @@ public class RideHailingApplication {
         autoInfo.displayVehicleDetails();
         System.out.println("Fare for Auto: Rs " + autoInfo.calculateFare(distance));
         System.out.println(((GPS) autoInfo).getCurrentLocation());
-        ((GPS) bikeInfo).updateLocation("Home");
+        ((GPS) autoInfo).updateLocation("Home");
     }
 }
 
