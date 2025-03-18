@@ -73,6 +73,7 @@ class InPatient extends Patient implements MedicalRecord {
         records.add(record);
     }
 
+     // Method to view records
     @Override
     public void viewRecords() {
         System.out.println("Medical Records: " + records);
